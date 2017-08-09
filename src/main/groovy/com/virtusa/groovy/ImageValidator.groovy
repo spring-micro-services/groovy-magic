@@ -7,6 +7,6 @@ class ImageValidator {
 
 
     boolean isValidImageExtension(String image){
-        return image.endsWith(".png")||image.endsWith(".jpg");
+        return image.toLowerCase().endsWith(".png")||image.toLowerCase().endsWith(".jpg");
     }
 }
